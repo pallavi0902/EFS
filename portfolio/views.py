@@ -153,5 +153,5 @@ def portfolio(request, pk):
 
     return render(request, 'portfolio/portfolio.html', {'customers': customers, 'investments': investments,
                                                         'stocks': stocks,
-                                                        'sum_acquired_value': sum_acquired_value, })
+                                                        'sum_acquired_value': um_acquired_value, })
 
