@@ -68,4 +68,4 @@ class Stock(models.Model):
         return str(self.customer)
 
     def initial_stock_value(self):
-        return self.shares * self.purchase_price
+        return self.shares * self.purchse_price
